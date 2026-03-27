@@ -1,0 +1,77 @@
+# NexT 主题配置
+# 文档: https://theme-next.js.org/docs/
+
+# 方案选择 - Gemini（与 blog.k8s.li 同款）
+scheme: Gemini
+
+# 暗黑模式
+darkmode: true
+
+# 菜单导航
+menu:
+  home: / || fa fa-home
+  archives: /archives/ || fa fa-archive
+  categories: /categories/ || fa fa-th
+  tags: /tags/ || fa fa-tags
+  running: /running/ || fa fa-running
+  about: /about/ || fa fa-user
+
+# 侧边栏
+sidebar:
+  position: left
+  display: post
+
+# 头像
+avatar:
+  url: /images/avatar.png
+  rounded: true
+
+# 社交链接
+social:
+  GitHub: https://github.com/Estanger || fab fa-github
+  # Strava: https://www.strava.com/ || fab fa-strava
+
+# 代码高亮
+codeblock:
+  copy_button:
+    enable: true
+
+# 返回顶部
+back2top:
+  enable: true
+  sidebar: false
+  scrollpercent: true
+
+# 阅读进度条
+reading_progress:
+  enable: true
+  position: top
+  color: "#222"
+
+# 本地搜索（后续启用）
+# local_search:
+#   enable: true
+
+# 页脚
+footer:
+  since: 2025
+  icon:
+    name: fa fa-heart
+    animated: true
+  powered: false
+
+# 字体 - 使用更舒适的阅读字体
+font:
+  enable: true
+  global:
+    external: true
+    family: Noto Serif SC
+    size: 1
+
+# SEO
+index_with_subtitle: false
+
+# 文章字数统计和阅读时长（后续启用）
+# symbols_count_time:
+#   separated_meta: true
+#   item_text_total: true
