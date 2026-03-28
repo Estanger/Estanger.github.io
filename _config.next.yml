@@ -71,6 +71,10 @@ font:
 # SEO
 index_with_subtitle: false
 
+# 自定义样式
+custom_file_path:
+  style: source/_data/styles.styl
+
 # 文章字数统计和阅读时长（后续启用）
 # symbols_count_time:
 #   separated_meta: true
