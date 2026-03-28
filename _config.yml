@@ -98,6 +98,23 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: next
 
+# 豆瓣插件
+douban:
+  id: 174519271
+  builtin: false
+  item_per_page: 10
+  meta_max_line: 4
+  customize_layout: page
+  book:
+    path: books/index.html
+    title: 阅读
+    quote: 读书是一种思考与认知
+  movie:
+    path: movies/index.html
+    title: 观影
+    quote: 观影是一种生活方式
+  timeout: 10000
+
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:

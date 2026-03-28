@@ -13,6 +13,8 @@ menu:
   archives: /archives/ || fa fa-archive
   categories: /categories/ || fa fa-th
   tags: /tags/ || fa fa-tags
+  books: /books/ || fa fa-book
+  movies: /movies/ || fa fa-film
   running: https://estanger.github.io/running_page/ || fa fa-running
   about: /about/ || fa fa-user
 
