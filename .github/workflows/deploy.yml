@@ -26,6 +26,7 @@ jobs:
           cache: npm
 
       - run: npm ci
+      - run: npx hexo douban
       - run: npx hexo generate
 
       - uses: actions/upload-pages-artifact@v3
