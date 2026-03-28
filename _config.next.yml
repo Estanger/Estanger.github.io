@@ -13,7 +13,7 @@ menu:
   archives: /archives/ || fa fa-archive
   categories: /categories/ || fa fa-th
   tags: /tags/ || fa fa-tags
-  running: /running/ || fa fa-running
+  running: https://estanger.github.io/running_page/ || fa fa-running
   about: /about/ || fa fa-user
 
 # 侧边栏
